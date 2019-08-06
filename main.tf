@@ -1,5 +1,5 @@
 module "metric_filter_alarm_3_1" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -9,7 +9,7 @@ module "metric_filter_alarm_3_1" {
 }
 
 module "metric_filter_alarm_3_2" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -19,7 +19,7 @@ module "metric_filter_alarm_3_2" {
 }
 
 module "metric_filter_alarm_3_3" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -29,7 +29,7 @@ module "metric_filter_alarm_3_3" {
 }
 
 module "metric_filter_alarm_3_4" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -39,7 +39,7 @@ module "metric_filter_alarm_3_4" {
 }
 
 module "metric_filter_alarm_3_5" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -49,7 +49,7 @@ module "metric_filter_alarm_3_5" {
 }
 
 module "metric_filter_alarm_3_6" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -59,7 +59,7 @@ module "metric_filter_alarm_3_6" {
 }
 
 module "metric_filter_alarm_3_7" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -69,7 +69,7 @@ module "metric_filter_alarm_3_7" {
 }
 
 module "metric_filter_alarm_3_8" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -79,7 +79,7 @@ module "metric_filter_alarm_3_8" {
 }
 
 module "metric_filter_alarm_3_9" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -89,7 +89,7 @@ module "metric_filter_alarm_3_9" {
 }
 
 module "metric_filter_alarm_3_10" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -99,7 +99,7 @@ module "metric_filter_alarm_3_10" {
 }
 
 module "metric_filter_alarm_3_11" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -109,7 +109,7 @@ module "metric_filter_alarm_3_11" {
 }
 
 module "metric_filter_alarm_3_12" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -119,7 +119,7 @@ module "metric_filter_alarm_3_12" {
 }
 
 module "metric_filter_alarm_3_13" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
@@ -129,7 +129,7 @@ module "metric_filter_alarm_3_13" {
 }
 
 module "metric_filter_alarm_3_14" {
-  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm?ref=develop"
+  source  = "github.com/Codevate/terraform-aws-metric-filter-alarm"
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
