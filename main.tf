@@ -13,7 +13,7 @@ module "metric_filter_alarm_3_2" {
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
-  pattern = "{ $.eventName = \"ConsoleLogin\" && $.additionalEventData.MFAUsed = \"No\" }"
+  pattern = "{ $.eventName = \"ConsoleLogin\" && $.additionalEventData.MFAUsed != \"Yes\" }"
   alarm_name = "3.2 Management Console sign-in without MFA"
   alarm_action_arns = "${var.alarm_action_arns}"
 }
@@ -123,7 +123,7 @@ module "metric_filter_alarm_3_13" {
 
   log_group_name = "${var.log_group_name}"
   metric_namespace = "${var.metric_namespace}"
-  pattern = "{ ($.eventName = CreateNetworkAcl) || ($.eventName = CreateNetworkAclEntry) || ($.eventName = DeleteNetworkAcl) || ($.eventName = DeleteNetworkAclEntry) || ($.eventName = ReplaceNetworkAclEntry) || ($.eventName = ReplaceNetworkAclAssociation) }"
+  pattern = "{ ($.eventName = CreateCustomerGateway) || ($.eventName = DeleteCustomerGateway) || ($.eventName = DeleteInternetGateway) || ($.eventName = DetachInternetGateway) }"
   alarm_name = "3.13 route table changes"
   alarm_action_arns = "${var.alarm_action_arns}"
 }
